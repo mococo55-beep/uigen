@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "Reactコンポーネントジェネレーター" [level=1] [ref=e51]:
+        - generic [ref=e52]: Reactコンポーネントジェネレーター
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e68]:
+            - generic [ref=e73]: ユーザープロフィールカードコンポーネントを作ってください。アバター、名前、限定、フォローボタンを含むシンプルなカード。
+            - img [ref=e76]
+          - generic [ref=e79]:
+            - img [ref=e82]
+            - generic [ref=e87]:
+              - paragraph [ref=e89]:
+                - generic [ref=e90]: これは静的なレスポンスです。コンポーネント生成にAnthropic APIを使用するには、.envファイルにAnthropic APIキーを配置してください。コンポーネントを表示するためのApp.jsxファイルを作成しましょう。
+              - generic [ref=e94]: str_replace_editor
+              - separator [ref=e95]
+              - paragraph [ref=e97]:
+                - generic [ref=e98]: カウンターコンポーネントを作成します。
+              - generic [ref=e102]: str_replace_editor
+              - separator [ref=e103]
+              - paragraph [ref=e105]:
+                - generic [ref=e106]: それでは、コンポーネントのスタイルを改善していきましょう。
+              - generic [ref=e110]: str_replace_editor
+              - separator [ref=e111]
+              - generic [ref=e112]:
+                - paragraph [ref=e113]:
+                  - generic [ref=e114]: 完璧！
+                - list [ref=e115]:
+                  - listitem [ref=e116]: "**Counter."
+              - generic [ref=e117]:
+                - img [ref=e118]
+                - generic [ref=e121]: 生成中...
+        - generic [ref=e23]:
+          - textbox "作成したいReactコンポーネントについて説明してください。" [disabled] [ref=e55]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "プレビュー" [selected] [ref=e56]:
+            - generic [ref=e57]: プレビュー
+          - tab "コード" [ref=e58]:
+            - generic [ref=e59]: コード
+        - generic [ref=e37]:
+          - button "サインイン" [ref=e60]:
+            - generic [ref=e61]: サインイン
+          - button "サインアップ" [ref=e62]:
+            - generic [ref=e63]: サインアップ
+      - iframe [ref=e122]:
+        - generic [ref=f3e5]:
+          - heading "Counter" [level=2] [ref=f3e6]
+          - generic [ref=f3e7]: "0"
+          - generic [ref=f3e8]:
+            - button "Decrease" [ref=f3e9] [cursor=pointer]
+            - button "Reset" [ref=f3e10] [cursor=pointer]
+            - button "Increase" [ref=f3e11] [cursor=pointer]
+  - alert [ref=e50]
